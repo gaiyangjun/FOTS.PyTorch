@@ -1,7 +1,7 @@
 {
     "name": "FOTS",
-    "cuda": false,
-    "gpus": [0, 1, 2, 3],
+    "cuda": true,
+    "gpus": [0],
     "data_loader": {
         "dataset":"icdar2015",
         "data_dir": "/Users/luning/Dev/data/icdar/icdar2015/4.4/training",
