@@ -29,8 +29,8 @@ class ICDAR(Dataset):
     structure = {
         '2015': {
             'training': {
-                'images': 'images',
-                'gt':'texts',
+                'images': '',
+                'gt':'',
                 'voc_per_image': 'ch4_training_vocabularies_per_image',
                 'voc_all': 'ch4_training_vocabulary.txt'
             },
